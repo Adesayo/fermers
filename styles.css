@@ -63,25 +63,21 @@ line-height: 200%;
  text-align: right;
  background: rgba(0,255,0,0.3);
  }
- .jmenu ul{
-    border: none;
-  }
-
+  
  .jmenu li{
-   background-color:rgba(0,0,0,0.1) ;
  display: inline-block;
  height: 8%;
  width:10%;
  padding: 0 5%;
  }
  .jmenu a {
-   font-size: 105%;
+   font-size: 110%;
    text-transform: uppercase;
    font-family: lato;
    color: #fff;
-   padding: 1%;
    text-decoration: none;
    }
+
 .jmenu a:hover{
 border-bottom:2px solid rgba(0,255,0,1);
 padding: 7px;
@@ -102,37 +98,7 @@ transform: scale(1.1 ,1.3);
 -ms-transform: scale(1.1 ,1.3);
 }
 
-input.jm-menu-btn {
-  display: block;
-}
-
-input[type='checkbox'].jm-menu-btn ~ .jm-collapse {
-  display: block;
-}
-
-input[type='checkbox']:checked.jm-menu-btn ~ .jm-collapse {
-  display: block;
-}
-input.jm-menu-btn,
-label.jm-menu-btn {
-  display: block;
-}
-label.jm-menu-btn {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  padding: 16px 32px;
-}
-
-label.jm-menu-btn:hover {
-  color: #fff;
-}
-
-
-input[type='checkbox'].jm-menu-btn ~ .jm-collapse,
-.jm-collapse {
-  display: block; /* Show menu */
-}
+ 
 
 #about{
   width:80%;
@@ -915,17 +881,14 @@ margin-top: 2%;
 
    }
       }
-      @media (max-width: 768px) {
+      @media (max-width: 500px) {
 
-           .jmenu{
-             background: rgba(0,255,0,0.3)
-           }
-          .jmenu ul {
+               .jmenu ul {
             text-align: center;
             margin: 2% auto;
-            width: 80%;
+            width:90%;
             min-width: 70%;
-            border-top: none;
+ 
             background: rgba(0,255,0,0.3)
           }
 
@@ -935,15 +898,9 @@ margin-top: 2%;
             margin: 0 auto;
           }
 
-          input[type='checkbox'].jm-menu-btn ~ .jm-collapse{
-            display: block;
-          }
+             }
 
-
-
-        }
-
-      }
+    
 
 
 
