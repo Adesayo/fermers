@@ -56,22 +56,22 @@ line-height: 200%;
  }
 
  .jmenu{
-   background :rgba(0,0,0,0 );
+
  margin:0 10% 0 0;
  padding-top:1%;
  width: 90%;
  text-align: right;
- background: rgba(0,255,0,0.3);
+
  }
   
  .jmenu li{
  display: inline-block;
  height: 8%;
  width:10%;
- padding: 0 5%;
+ padding: 0 3%;
  }
  .jmenu a {
-   font-size: 110%;
+   font-size: 105%;
    text-transform: uppercase;
    font-family: lato;
    color: #fff;
@@ -881,43 +881,4 @@ margin-top: 2%;
 
    }
       }
-      @media (max-width: 500px) {
-
-               .jmenu ul {
-            text-align: center;
-            margin: 2% auto;
-            width:90%;
-            min-width: 70%;
- 
-            background: rgba(0,255,0,0.3)
-          }
-
-          .jmenu li {
-            display: block;
-            text-align: center;
-            margin: 0 auto;
-          }
-
-             }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   /*  */
+       
