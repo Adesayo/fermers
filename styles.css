@@ -485,14 +485,14 @@ grid-column-end: 5;
 
 .footer-form input{
   width: 70%;
-  height: 25.5%;
+  height: 20%;
   background-color: #fff;
   padding: 1%;
 }
 
 .footer-form button{
 width:30%;
-height:25%;
+height:20%;
 font-family: 'Varela Round', sans-serif;
 background-image: -webkit-linear-gradient(top left, rgba(173,255,47,0.5),rgba(225,258,240,1) );
 padding: 1%;
@@ -706,10 +706,10 @@ margin-top: 2%;
    }
    footer{
      margin-top:-10%;
-     padding-top: 20%;
+     padding-top:30%;
      height:650px;
      display: grid;
-     grid-template-columns: repeat(2,1fr); 
+     grid-template-columns: repeat(2,1fr);
    }
 
    .footer-div{
@@ -911,7 +911,7 @@ margin-top: 2%;
      }
      #contact-form{
        width: 90%;
-       margin:2% 5%;
+       margin:5% 5%;
      }
 
      #contact-form label{
