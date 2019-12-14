@@ -253,15 +253,18 @@ font-weight: bold;
   clear: both;
 display: grid;
 grid-template-columns: repeat(4,1fr);
+padding-left: 2%;
 }
 #team h2{
 text-align: center;
+grid-column-start: 1;
+grid-column-end: 5;
 text-transform: capitalize;
 padding-top:3%;
 font-size: 150%;
 
 }
- 
+
 .single-executive img{
   width:90%;
   margin: 0 auto;
@@ -461,21 +464,20 @@ footer{
   box-sizing: border-box;
   margin: 0 auto;
   padding-top: 7% ;
-  height:300px;
+  height:500px;
   text-align: center;
   background-color: rgba(152, 251,152, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   clip-path:polygon(0 0, 100% 15%, 100% 100%, 0 100%);
 }
 
-.footer-div{
-  width:18%;
-  float: left;
-}
-.footer-form{
-  width:30%;
-  float: left;
-  padding-left: 5%;
 
+.footer-form{
+  width:60%;
+   padding-top: 5%;
+grid-column-start: 1;
+grid-column-end: 5;
   margin: 0 auto;
   text-align: center;
 }
@@ -483,14 +485,14 @@ footer{
 
 .footer-form input{
   width: 70%;
-  height: 15%;
+  height: 25.5%;
   background-color: #fff;
   padding: 1%;
 }
 
 .footer-form button{
-width:27%;
-height: 15%;
+width:30%;
+height:25%;
 font-family: 'Varela Round', sans-serif;
 background-image: -webkit-linear-gradient(top left, rgba(173,255,47,0.5),rgba(225,258,240,1) );
 padding: 1%;
@@ -498,7 +500,7 @@ margin-left: -1%;
 }
 
 .footer-form button:hover{
-  background-color: green;
+  background-color:  ;
 }
 .footer-form h3{
   font-family: 'Varela Round', sans-serif;
@@ -533,7 +535,7 @@ margin-left: -1%;
 .footer-div a{
   text-transform: capitalize;
   text-decoration: none;
-  color: #2e8b57;
+  color:#000;
 }
 .footer-div a:hover {
   text-decoration: underline;
@@ -557,7 +559,7 @@ margin-left: -1%;
     margin-top: 13%;
   }
   #team{
-   
+    background-color: rgba(173, 255, 47, 0.2);
     height: 500px;
     margin-top: -2%;
   }
@@ -591,13 +593,18 @@ margin-left: -1%;
 
    #team{
      width: 100%;
-     margin-top: -4%;
-     height: 950px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   }
+     margin:-4% auto 0 auto;
+     padding-left: 3%;
+     height: 900px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     }
 
-   
+   #team h2{
+   text-align: center;
+   grid-column-start: 1;
+   grid-column-end: 3;
+ }
 
 
  #about h2{
@@ -700,7 +707,9 @@ margin-top: 2%;
    footer{
      margin-top:-10%;
      padding-top: 20%;
-     height: 450px;
+     height:650px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr); 
    }
 
    .footer-div{
@@ -720,7 +729,7 @@ margin-top: 2%;
    .footer-form button{
    width:27%;
    height: 10%;
-   margin-left:  %;
+
    }
  }
 
@@ -747,12 +756,19 @@ margin-top: 2%;
         height: 6%;
       }
       #team{
-       width: 100%;
-       margin-top: -4%;
-       height: 1300px;
-       display: grid;
-grid-template-columns: repeat(2,1fr);
-     }
+        width: 100%;
+        margin:-4% auto 0 auto;
+        padding-left:  ;
+        height:600px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        }
+
+      #team h2{
+      text-align: center;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
 
      .trigger{
        display: block;
@@ -793,9 +809,9 @@ grid-template-columns: repeat(2,1fr);
        height: 60%;
      }
 
-      
+
 .single-executive img{
-  width: 100%;
+  width: 95%;
   margin: -3% auto;
 }
 
@@ -919,19 +935,24 @@ grid-template-columns: repeat(2,1fr);
      footer{
        margin:2% auto;
        height: 750px;
-       text-align: center;
-       padding-top: 18%;
-     }
+       display: block;
+    }
 
      .footer-div{
        margin:3% auto;
        width:90%;
        text-align: center;
      }
-     .footer-div ul{
-       margin-right: 5%;
-       margin-left: -13%;
-      }
+     .footer-div h3{
+       margin-bottom: -3%;
+       margin-top: 3%;
+     }
+
+
+      .footer-div ul{
+        margin:0 -40px 0 0;
+        text-align: center;
+       }
      .footer-form{
        margin:3% auto;
        width:90%;
