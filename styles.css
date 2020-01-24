@@ -131,13 +131,14 @@ line-height: 200%;
 
 #about{
   width:80%;
-  margin: 0 auto -23% auto;
+  margin: 0 auto -43% auto;
 
   padding: 2%;
 
 }
 #about h2{
-  font-size: 400%;
+  font-size: 200%;
+
   width: 40%;
   text-transform: capitalize;
   border-bottom: 2px solid #f2f7f3;
@@ -149,7 +150,7 @@ text-align: center;
   font-size: 120%;
   line-height:120%;
   text-align:center;
-  margin:-40px 0 0 0;
+  margin:-15px 0 0 0;
 
 }
 #about img{
@@ -158,11 +159,46 @@ text-align: center;
   height: auto;
   position: relative;
   bottom: 90px;
-
 }
-#mid{
+#how{
+  text-align: center;
   width: 100%;
-  margin:10% auto 0 auto;
+  margin: 0 auto -40% auto;
+  box-sizing: border-box;
+  padding: 2%;
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+  #how h2{
+    font-size: 200%;
+    grid-column: 1/-1;
+    text-transform: capitalize;
+    border-bottom: 2px solid #f2f7f3;
+  color: #96ca00;
+  text-align: center;
+
+   }
+
+ .cause{
+   width: 90%;
+ }
+ .cause h4{
+  color: #96ca00;
+ }
+ .cause i{
+padding-top: 10%;
+color: #bab186;
+ }
+
+ .cause p{
+   width: 70%;
+   margin: 0 auto;
+ }
+ #mid{
+  width: 100%;
+  margin:0 auto;
 
   font-size: 150%;
 }
@@ -187,7 +223,7 @@ text-align: center;
   width: 80%;
   text-transform: capitalize;
   border-bottom: 2px solid #b3c8cd;
-  margin: 10% auto 1% auto;
+  margin: 20% auto 1% auto;
 color: #96ca00;
 text-align: center;
 }
@@ -200,16 +236,17 @@ text-align: center;
 }
 .first button{
   width: 32%;
-  height: 15%;
+  height: 12%;
   font-size: 110%;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5em;
   margin-top: 5%;
   background-image: -webkit-linear-gradient(top left,#f2f7f3,#c5df56);
-  transition: all 2s;
+  transition-property: all;
+  transition-duration: 2s;
 }
 
-.first button:hover{
+.first button:hover,.first button:active{
 
   background-image:-webkit-linear-gradient(top left, #96ca00,#f2f7f3);
 }
@@ -406,7 +443,7 @@ margin-bottom: 3%;
 #contact-form{
   width: 80%;
   height:520px;
-  margin:2% 10%;
+  margin:2% 5% 20% 5%;
 }
 #contact-form label{
   font-size: 120%;
@@ -419,15 +456,20 @@ vertical-align: middle;
  #contact-form input,select,textarea{
    width:55%;
    height: 7%;
-   border: 2px solid black;
+   border: 1px solid black;
    margin :3% 3%;
    font-family:lato;
    font-size: 101%;
    padding: 1%;
+   transition: all 2s;
  }
 
+#contact-form input:focus{
+  border: 2px solid #c5df56;
+  background-color:#f2f7f3;
+}
  #contact-form textarea{
-height: 20%;
+height: 20%;#
 resize: none;
  }
 
@@ -453,7 +495,7 @@ resize: none;
   width: 22%;
   height: 8%;
   float: right;
-  ffont-family: 'IM Fell Great Primer SC', serif;
+  font-family: 'IM Fell Great Primer SC', serif;
   font-size: 120%;
   border-radius: 5em;
   background-image: -webkit-linear-gradient(top left, rgba(173,255,47,0.5),rgba(225,258,240,1) );
@@ -583,6 +625,14 @@ margin-top: -20%;
   .first h2{
     margin-top: 13%;
   }
+  #header{
+    height: 500px;
+  }
+
+  .first h2{
+    margin: 50% auto 1% auto;
+  }
+
   #team{
     box-sizing: border-box;
     height: 650px;
@@ -662,9 +712,13 @@ margin-top: -20%;
    grid-column-end: 3;
    }
 
+   #about{
+
+     margin: 0 auto 0 auto;
+}
 
    #about h2{
-   font-size: 300%;
+   font-size: 200%;
    width: 80%;
    margin: 0 auto;
    text-align: center;
@@ -682,6 +736,10 @@ margin-top: -20%;
    display: none;
 
    }
+   #how{
+     margin: 0 auto -20% auto;
+   }
+
    #mid{
      margin:20% auto 0 auto;
      font-size: 120%;
@@ -821,6 +879,7 @@ margin-top: -20%;
        display: block;
      }
      .jmenu{
+      height: 50vh;
      margin: 0;
      padding:0;
      width: 100%;
@@ -840,7 +899,8 @@ margin-top: -20%;
      display:block;
      height: 8%;
      width:10%;
-     padding: 3% 3%;
+     padding:10% 3%;
+
      text-align: right;
      }
 
@@ -866,6 +926,10 @@ margin-top: -20%;
   margin-top: -5%;
 }
 
+#about{
+  margin: 0 auto 0 auto;
+}
+
    #about h2{
      font-size: 150%;
      width: 80%;
@@ -879,12 +943,20 @@ margin-top: -20%;
      line-height:120%;
      text-align:center;
      margin:1% auto;
+}
 
-   }
    #about img{
     display: none;
+}
 
-     }
+#how{
+  margin: 0 auto -20% auto;
+  display: block;
+}
+
+.cause{
+  margin: 0 auto;
+}
      #mid{
        width: 100%;
        margin: 0 auto 0 auto;
@@ -895,14 +967,14 @@ margin-top: -20%;
        font-size:150%;
        margin-bottom: ;
      }
+
      .first{
        float:none;
-       margin-top: 0%;
+       margin: 0 auto;
       box-sizing:border-box;
-      width: 100%;
+      width: 95%;
       height: 400px;
-
-    }
+}
 
      .first h2{
        font-size: 120%;
@@ -913,6 +985,12 @@ margin-top: -20%;
        font-size: 80%;
        line-height:120%;
        text-align:center;
+     }
+
+     .first button{
+       width: 38%;
+       height: 12%;
+       font-size: 100%;
      }
       .second{
         float: none;
@@ -959,6 +1037,7 @@ margin-top: -20%;
      #contact-form{
        width: 90%;
        margin:5% 5%;
+       box-sizing: border-box;
      }
 
      #contact-form label{
