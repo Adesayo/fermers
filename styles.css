@@ -163,6 +163,7 @@ text-align: center;
 #how{
   text-align: center;
   width: 100%;
+  height: auto;
   margin: 0 auto -40% auto;
   box-sizing: border-box;
   padding: 2%;
@@ -612,7 +613,17 @@ margin-top: -20%;
   text-decoration: underline;
 }
 
+ @media (min-width:769px) and (max-width:1249px){
+   #how{
 
+     margin: 0 auto 0 auto;
+}
+.first{
+  margin-top:15%;
+
+}
+
+}
 
 
 @media (min-width: 1250px){
