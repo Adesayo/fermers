@@ -448,7 +448,7 @@ margin-bottom: 3%;
 }
 #contact-form label{
   font-size: 120%;
-
+line-height: 2;
   float:  left;
   width: 20%;
 vertical-align: middle;
@@ -516,7 +516,7 @@ footer{
   padding-top: 10% ;
   height:510px;
   text-align: center;
-  background-color:#b3c8cd;
+  background-color:#f2f7f3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   clip-path:polygon(0 0, 100% 15%, 100% 100%, 0 100%);
@@ -613,6 +613,10 @@ margin-top: -20%;
   text-decoration: underline;
 }
 
+
+
+
+
  @media (min-width:769px) and (max-width:1249px){
    #how{
 
@@ -643,6 +647,10 @@ margin-top: -20%;
   .first h2{
     margin: 50% auto 1% auto;
   }
+
+  #about h2{
+    padding-top:10%;
+}
 
   #team{
     box-sizing: border-box;
@@ -959,7 +967,6 @@ margin-top: -20%;
    #about img{
     display: none;
 }
-
 #how{
   margin: 0 auto -20% auto;
   display: block;
@@ -1040,6 +1047,9 @@ margin-top: -20%;
       #volunteer{
        margin-top:-2%;
        height: 660px;
+      }
+      .volunteer-box{
+        height:50%;
       }
        .volunteer-box button{
        width: 50%;
